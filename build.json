@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ZMR250 V1",
+    "esc": "EMAX/BLHeli-Series-12A-ESC",
+    "motor": "EMAX/MT1806-2280KV",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/5x4-FG-MR"
+    ],
+    "arm": "stock",
+    "battery": [
+      "Turnigy/2200mAh-3S-20C-Lipo-Pack"
+    ],
+    "osd": "MinimOSD",
+    "receiver": "FrSky/V8FR-II",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "RunCam/HD",
+    "videotx": "Boscam",
+    "blackbox": "8Mb ROM",
+    "voltagereg": "Linear BEC from the ESC"
+  },
+  "version": 1
 }
